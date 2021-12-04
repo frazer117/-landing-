@@ -1,0 +1,165 @@
+.banner {
+  background-image: url("https://i.ytimg.com/vi/-MKapbz0GIo/maxresdefault.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 100px;
+}
+
+.container {
+  width: 900px;
+  margin: auto;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.container h1 {
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px 3px rgba(0,0,0,0.3);
+
+}
+
+.container h2 {
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px 3px rgba(0,0,0,0.3);
+  font-size: large;
+
+}
+
+.btn-register {
+  font-family: sans-serif;
+  display: inline-block;
+  background-color: rgb(150, 204, 242);
+  color: white;
+  font-weight: 800;
+  text-align: center;
+  padding: 12px 25px;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: .2s;
+  opacity: 65%;
+  text-shadow: 2px 2px 3px rgba(0,0,0,0.3);
+  box-shadow: 0 0 15px rgb(0 0 0 / 10%):
+}
+
+.btn-register:hover {
+  opacity: 100%;
+}
+
+.intro h2 {
+  text-align: center;
+  font-family: sans-serif;
+  font-weight:700;
+  text-shadow: 2px 2px 3px rgba(121, 117, 117, 0.1);
+  font-size: large;
+}
+
+.footer-cards {
+  text-align: center;
+  margin: auto;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  width: 900px;
+  margin: 0 auto;
+}
+
+.application-card {
+  width: 200px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgb(230 230 230);
+  text-align: center;
+  padding: 20px;
+  border: 1px solid rgb(230,230,230);
+  transition: .2s
+}
+
+.application-card img {
+  height: 100px;
+}
+
+.application-card:hover {
+  background:#f1f8ff ;
+}
+
+.trade-card {
+  width: 200px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgb(230 230 230);
+  text-align: center;
+  padding: 20px;
+  border: 1px solid rgb(230,230,230);
+  transition: .2s
+}
+
+.trade-card img {
+  height: 100px;
+}
+
+.trade-card:hover {
+  background:#f1f8ff ;
+}
+
+.growth-card {
+  width: 200px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgb(230 230 230);
+  text-align: center;
+  padding: 20px;
+  border: 1px solid rgb(230,230,230);
+  transition: .2s
+}
+
+
+.growth-card img {
+  height: 100px;
+}
+
+.growth-card:hover {
+  background:#f1f8ff ;
+}
+
+.footer {
+  text-align: center;
+  padding: 60px;
+}
+
+@media (max-width: 900px) {
+  .container {
+    width: 700px
+  }
+}
+
+@media (max-width: 700px) {
+  .container {
+    width: 500px
+  }
+}
+
+@media (max-width: 500px) {
+  .container {
+    width: 400px
+  }
+}
+
+@media (max-width: 900px) {
+  .cards {
+    width: 700px
+  }
+}
+
+@media (max-width: 700px) {
+  .cards{
+    width: 500px
+  }
+}
+
+@media (max-width: 500px) {
+  .cards {
+    width: 400px
+  }
+}
